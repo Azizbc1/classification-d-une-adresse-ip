@@ -34,6 +34,10 @@ elif ipIn == "0.0.0.0":
      result = result + " ,de la classe A et non-routable"
 elif ipIn == "127.0.0.1":  
    result = result + " ,localhost et  de la classe A  "
+ elif (ip in classD):
+     result = result +"est de la classe D"
+elif (ip in classC):
+     result = result +"est de la classe E" 
 else:
      result = " vous n avez pas saisir une adresse ip "  
 
